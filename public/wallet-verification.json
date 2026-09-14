@@ -1,0 +1,58 @@
+{
+  "verifiedAt": "2026-09-12T16:17:02Z",
+  "network": "StudioNet",
+  "chainId": 61999,
+  "scope": "Chrome/MetaMask approval and rejection recovery on the public app; native GEN is simulated, not real-value funds.",
+  "app": "https://patchbond.blazekingsley2.chatgpt.site",
+  "contract": "0x57512255289dcC4403Cc05c9e49a5BD6417528D7",
+  "sourceSha256": "227bec571d298a4bb14b90f1b295495947bdd259bdc471f214a712ed6d3f2f7d",
+  "wallet": "0xa1e3a40bdc63305b5c6fd86276bbe967c5d78698",
+  "methodology": "Agent inspected and operated the public app in the user's selected Chrome browser. The user approved one MetaMask prompt and rejected a separate prompt. Read-only SDK queries independently checked the transaction receipt, finalized job list and wallet balance. UI observations are a recorded manual integration check, not an automatically replayed browser test.",
+  "approval": {
+    "passed": true,
+    "jobId": "PB-MM-SIGN-001",
+    "method": "create_job",
+    "transactionHash": "0x7d89597cfbb06040521d638fba7f6f7ecb637038075ab4400087394d34255441",
+    "explorerUrl": "https://explorer-studio.genlayer.com/transactions/0x7d89597cfbb06040521d638fba7f6f7ecb637038075ab4400087394d34255441",
+    "transactionStatus": "FINALIZED",
+    "execution": "SUCCESS",
+    "rewardWei": "1000000000000000",
+    "jobStatusAtCheckpoint": "OPEN",
+    "acceptBy": 1789232910,
+    "modalClosed": true,
+    "controlsReenabled": true,
+    "explorerLinkRetained": true,
+    "jobVisibleOnBoard": true
+  },
+  "rejection": {
+    "passed": true,
+    "jobId": "PB-MM-REJECT-001",
+    "observedError": "User rejected the request. Details: MetaMask Tx Signature: User denied transaction signature. Version: viem@2.56.3",
+    "formValuesRetained": true,
+    "submitEnabled": true,
+    "closeEnabled": true,
+    "newCommitmentEnabled": true,
+    "pendingTransactionPanelAbsent": true,
+    "finalizedJobAbsent": true,
+    "balanceUnchanged": true,
+    "formClosedWithoutResubmission": true,
+    "priorConfirmedResult": "The retained success link belonged to PB-MM-SIGN-001, not the rejected request."
+  },
+  "balancesWei": {
+    "beforeApproval": "11000000000000000",
+    "afterApproval": "10000000000000000",
+    "afterRejection": "10000000000000000"
+  },
+  "finalizedJobIdsAtCheckpoint": [
+    "PB-STUDIO-HAPPY-001",
+    "PB-STUDIO-CORRECT-001",
+    "PB-STUDIO-EXPIRY-001",
+    "PB-MM-SIGN-001"
+  ],
+  "limitations": [
+    "The approved signing-test commitment remains OPEN and locks 0.001 simulated GEN. No settlement, refund or withdrawal is claimed for this extra record. Eligible expiry recovery requires separate transactions; it is not automatic.",
+    "The original three complete settlement flows and their historical balance snapshots are recorded separately in /verification.json.",
+    "This follow-up does not claim a complete browser-driven settlement cycle, exhaustive extension compatibility, or live wallet-switch/network-switch coverage.",
+    "No Portal submission has been made. This is not a security audit; StudioNet can reset its state."
+  ]
+}

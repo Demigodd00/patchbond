@@ -1,0 +1,19 @@
+{
+  "at": "2026-09-12T15:37:52.780Z",
+  "scope": "Actual client read/recovery functions; live RPC; in-memory storage; no browser wallet signature",
+  "deploymentIdentityVerified": true,
+  "checks": [
+    {
+      "hash": "0xe5a9e0feb0c3d292f701cf201b000eafec74225deba8734210d7507f89ee047a",
+      "expected": "success",
+      "actual": "success",
+      "passed": true
+    },
+    {
+      "hash": "0x9c55cb0af7cf6dc209cfa2dfb4be41824bd63c9b1dfddfc99d101bdff745fac5",
+      "expected": "error",
+      "actual": "error",
+      "passed": true
+    }
+  ]
+}

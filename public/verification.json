@@ -1,0 +1,1088 @@
+{
+  "generatedAt": "2026-09-12T15:38:21.465Z",
+  "network": "StudioNet",
+  "chainId": 61999,
+  "scope": "Hosted sandbox execution and simulated native GEN; not production funds or a security audit",
+  "contract": "0x57512255289dcC4403Cc05c9e49a5BD6417528D7",
+  "sourceSha256": "227bec571d298a4bb14b90f1b295495947bdd259bdc471f214a712ed6d3f2f7d",
+  "fixtureRepository": "https://github.com/Demigodd00/patchbond-studionet-fixtures",
+  "transactions": [
+    {
+      "hash": "0x965d3a4d6bb614628006beab58dbcf78ff5352b7809ba59b632788051c556146",
+      "url": "https://explorer-studio.genlayer.com/transactions/0x965d3a4d6bb614628006beab58dbcf78ff5352b7809ba59b632788051c556146",
+      "method": "deploy",
+      "role": "client",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "passed": true,
+      "expectedError": null,
+      "error": null,
+      "votes": {
+        "0x772ffCd1dF6Cc566eC4b8d3f4F4f8eBbb6B36C84": "agree",
+        "0x90402341F0B0e97b23023c0a87de957FB7148E0F": "agree",
+        "0xE6BD8050758CB15fC88387223E31Ae2708B119dC": "idle",
+        "0xacc2459F341D7a887bcA8FAA62F1EC9378d4Bc67": "agree",
+        "0xcE1d6bBB36B744536153966B4DD42276f5ADd0F8": "idle"
+      },
+      "leaderOnly": false
+    },
+    {
+      "hash": "0xdf8c8311726c3e347288d18aee67d68e8cf99ce83689921308c7f63cd168a9bf",
+      "url": "https://explorer-studio.genlayer.com/transactions/0xdf8c8311726c3e347288d18aee67d68e8cf99ce83689921308c7f63cd168a9bf",
+      "method": "create_job",
+      "role": "client",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "passed": true,
+      "expectedError": null,
+      "error": null,
+      "votes": {
+        "0x14402D49f317CE1a2F35BAE01b1804A2A9703dCb": "idle",
+        "0x3E5ee2507cc167C9925Bf10c67D7986581112024": "idle",
+        "0x4EDbE1FC9EAeC7b0EBA849b0C76AE73Eb0ad5C47": "agree",
+        "0xacc2459F341D7a887bcA8FAA62F1EC9378d4Bc67": "agree",
+        "0xec2Fb79cd12255Eb34886CEd7332f27B98DEe658": "agree"
+      },
+      "leaderOnly": false
+    },
+    {
+      "hash": "0x17ffeff09e515731610b7677f6840390a5e3a6e2733fbf983344877d36821cc8",
+      "url": "https://explorer-studio.genlayer.com/transactions/0x17ffeff09e515731610b7677f6840390a5e3a6e2733fbf983344877d36821cc8",
+      "method": "create_job",
+      "role": "client",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "passed": true,
+      "expectedError": null,
+      "error": null,
+      "votes": {
+        "0x14402D49f317CE1a2F35BAE01b1804A2A9703dCb": "agree",
+        "0x76c25AFC12c75485703cCFfd0083AA6201455B25": "agree",
+        "0x90402341F0B0e97b23023c0a87de957FB7148E0F": "idle",
+        "0xBBb165E4c9d73a1493D363280f7067Cd07891dBE": "agree",
+        "0xec2Fb79cd12255Eb34886CEd7332f27B98DEe658": "idle"
+      },
+      "leaderOnly": false
+    },
+    {
+      "hash": "0x8292b09cdb7be83c7b70da77ce86b7375820a7035afe812b186d08c6dee54789",
+      "url": "https://explorer-studio.genlayer.com/transactions/0x8292b09cdb7be83c7b70da77ce86b7375820a7035afe812b186d08c6dee54789",
+      "method": "create_job",
+      "role": "client",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "passed": true,
+      "expectedError": null,
+      "error": null,
+      "votes": {
+        "0x14402D49f317CE1a2F35BAE01b1804A2A9703dCb": "agree",
+        "0x36728d2a123aB444E603EE5b2ad17d18Bb193557": "agree",
+        "0x3D83ab507785b95ca5C208bEc80CCe3D5ca98100": "agree",
+        "0x6737ca1d6BDF8b7C4f19143E2D55581Ca64eb7C3": "idle",
+        "0xBBb165E4c9d73a1493D363280f7067Cd07891dBE": "idle"
+      },
+      "leaderOnly": false
+    },
+    {
+      "hash": "0xadeaa008df9948a3641d4ac72947a9caeb9eddd40fe42be063090fe6dd921baf",
+      "url": "https://explorer-studio.genlayer.com/transactions/0xadeaa008df9948a3641d4ac72947a9caeb9eddd40fe42be063090fe6dd921baf",
+      "method": "accept_job",
+      "role": "author",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "passed": true,
+      "expectedError": null,
+      "error": null,
+      "votes": {
+        "0x36728d2a123aB444E603EE5b2ad17d18Bb193557": "agree",
+        "0x4404Fb70d490c935758146f42A73DC850FF95C71": "agree",
+        "0x6737ca1d6BDF8b7C4f19143E2D55581Ca64eb7C3": "agree",
+        "0xBBb165E4c9d73a1493D363280f7067Cd07891dBE": "idle",
+        "0xE6BD8050758CB15fC88387223E31Ae2708B119dC": "idle"
+      },
+      "leaderOnly": false
+    },
+    {
+      "hash": "0xd9b33ce25a539dc60eb5726c1a5d4ad2994f8d288798af094027659b3faa50dd",
+      "url": "https://explorer-studio.genlayer.com/transactions/0xd9b33ce25a539dc60eb5726c1a5d4ad2994f8d288798af094027659b3faa50dd",
+      "method": "accept_job",
+      "role": "author",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "passed": true,
+      "expectedError": null,
+      "error": null,
+      "votes": {
+        "0x36728d2a123aB444E603EE5b2ad17d18Bb193557": "idle",
+        "0x4aba638Cf0Cf5249437AaD968fC69dde46ae6BAC": "idle",
+        "0x76c25AFC12c75485703cCFfd0083AA6201455B25": "agree",
+        "0xDB1c35c1f05d885999b8f13e5735307BcC16Be88": "agree",
+        "0xE6BD8050758CB15fC88387223E31Ae2708B119dC": "agree"
+      },
+      "leaderOnly": false
+    },
+    {
+      "hash": "0x4d8eaaa43d04a4fb6fe802bbfd11f24a9e39577df1357e5821b76cefef21d1f3",
+      "url": "https://explorer-studio.genlayer.com/transactions/0x4d8eaaa43d04a4fb6fe802bbfd11f24a9e39577df1357e5821b76cefef21d1f3",
+      "method": "submit_patch",
+      "role": "author",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "passed": true,
+      "expectedError": null,
+      "error": null,
+      "votes": {
+        "0x3E5ee2507cc167C9925Bf10c67D7986581112024": "idle",
+        "0x4aba638Cf0Cf5249437AaD968fC69dde46ae6BAC": "idle",
+        "0x772ffCd1dF6Cc566eC4b8d3f4F4f8eBbb6B36C84": "agree",
+        "0x90402341F0B0e97b23023c0a87de957FB7148E0F": "agree",
+        "0xDB1c35c1f05d885999b8f13e5735307BcC16Be88": "agree"
+      },
+      "leaderOnly": false
+    },
+    {
+      "hash": "0xb89d8706b8a877cac25a0c63eb7ccba70131853dd21d42f0db006f6acfada279",
+      "url": "https://explorer-studio.genlayer.com/transactions/0xb89d8706b8a877cac25a0c63eb7ccba70131853dd21d42f0db006f6acfada279",
+      "method": "submit_patch",
+      "role": "author",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "passed": true,
+      "expectedError": null,
+      "error": null,
+      "votes": {
+        "0x36728d2a123aB444E603EE5b2ad17d18Bb193557": "agree",
+        "0x4404Fb70d490c935758146f42A73DC850FF95C71": "idle",
+        "0x772ffCd1dF6Cc566eC4b8d3f4F4f8eBbb6B36C84": "idle",
+        "0xE6BD8050758CB15fC88387223E31Ae2708B119dC": "agree",
+        "0xec2Fb79cd12255Eb34886CEd7332f27B98DEe658": "agree"
+      },
+      "leaderOnly": false
+    },
+    {
+      "hash": "0xe0d5abdfc83fe320fc43a3208cee8f598d42409b850fd5a393110a341e2f2ae7",
+      "url": "https://explorer-studio.genlayer.com/transactions/0xe0d5abdfc83fe320fc43a3208cee8f598d42409b850fd5a393110a341e2f2ae7",
+      "method": "review_patch",
+      "role": "observer",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "passed": true,
+      "expectedError": null,
+      "error": null,
+      "votes": {
+        "0x03D58A4DeF6fDFc032A56374785a5F571D07Bc11": "idle",
+        "0x3E5ee2507cc167C9925Bf10c67D7986581112024": "agree",
+        "0x4EDbE1FC9EAeC7b0EBA849b0C76AE73Eb0ad5C47": "agree",
+        "0x9ea87b28DcA2F79fe108CF06a4c13B4c876AC23d": "idle",
+        "0xec2Fb79cd12255Eb34886CEd7332f27B98DEe658": "agree"
+      },
+      "leaderOnly": false
+    },
+    {
+      "hash": "0xcacf0c24ee79288feec1793623f9fc14b6979404665a05d6fb07049fc383d5e1",
+      "url": "https://explorer-studio.genlayer.com/transactions/0xcacf0c24ee79288feec1793623f9fc14b6979404665a05d6fb07049fc383d5e1",
+      "method": "review_patch",
+      "role": "observer",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "passed": true,
+      "expectedError": null,
+      "error": null,
+      "votes": {
+        "0x14402D49f317CE1a2F35BAE01b1804A2A9703dCb": "idle",
+        "0x5310dcF075E0BD47d29B8ec6581F736C767f54D2": "agree",
+        "0x90402341F0B0e97b23023c0a87de957FB7148E0F": "disagree",
+        "0xBBb165E4c9d73a1493D363280f7067Cd07891dBE": "agree",
+        "0xDB1c35c1f05d885999b8f13e5735307BcC16Be88": "agree"
+      },
+      "leaderOnly": false
+    },
+    {
+      "hash": "0xbbf89370f8005c65bec609409c32d3c778198b8fca71f83d7ad9e9be6d2da283",
+      "url": "https://explorer-studio.genlayer.com/transactions/0xbbf89370f8005c65bec609409c32d3c778198b8fca71f83d7ad9e9be6d2da283",
+      "method": "accept_job",
+      "role": "observer",
+      "status": "FINALIZED",
+      "execution": "ERROR",
+      "passed": true,
+      "expectedError": "Only assigned author",
+      "error": "[EXPECTED] Only assigned author",
+      "votes": {
+        "0x3D83ab507785b95ca5C208bEc80CCe3D5ca98100": "idle",
+        "0x4aba638Cf0Cf5249437AaD968fC69dde46ae6BAC": "idle",
+        "0x76c25AFC12c75485703cCFfd0083AA6201455B25": "agree",
+        "0xE6BD8050758CB15fC88387223E31Ae2708B119dC": "agree",
+        "0xec2Fb79cd12255Eb34886CEd7332f27B98DEe658": "agree"
+      },
+      "leaderOnly": false
+    },
+    {
+      "hash": "0x9c55cb0af7cf6dc209cfa2dfb4be41824bd63c9b1dfddfc99d101bdff745fac5",
+      "url": "https://explorer-studio.genlayer.com/transactions/0x9c55cb0af7cf6dc209cfa2dfb4be41824bd63c9b1dfddfc99d101bdff745fac5",
+      "method": "finalize",
+      "role": "observer",
+      "status": "FINALIZED",
+      "execution": "ERROR",
+      "passed": true,
+      "expectedError": "Decision is not ready to finalize",
+      "error": "[EXPECTED] Decision is not ready to finalize",
+      "votes": {
+        "0x4aba638Cf0Cf5249437AaD968fC69dde46ae6BAC": "agree",
+        "0x76c25AFC12c75485703cCFfd0083AA6201455B25": "agree",
+        "0x772ffCd1dF6Cc566eC4b8d3f4F4f8eBbb6B36C84": "idle",
+        "0xDB1c35c1f05d885999b8f13e5735307BcC16Be88": "idle",
+        "0xcE1d6bBB36B744536153966B4DD42276f5ADd0F8": "agree"
+      },
+      "leaderOnly": false
+    },
+    {
+      "hash": "0x0a713561eac168e1c9092d0e5c3d1a6cd74b5692b6811a5a23767c24a5a03ff7",
+      "url": "https://explorer-studio.genlayer.com/transactions/0x0a713561eac168e1c9092d0e5c3d1a6cd74b5692b6811a5a23767c24a5a03ff7",
+      "method": "challenge_review",
+      "role": "client",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "passed": true,
+      "expectedError": null,
+      "error": null,
+      "votes": {
+        "0x3E5ee2507cc167C9925Bf10c67D7986581112024": "agree",
+        "0x4aba638Cf0Cf5249437AaD968fC69dde46ae6BAC": "agree",
+        "0x9ea87b28DcA2F79fe108CF06a4c13B4c876AC23d": "idle",
+        "0xE6BD8050758CB15fC88387223E31Ae2708B119dC": "agree",
+        "0xcE1d6bBB36B744536153966B4DD42276f5ADd0F8": "idle"
+      },
+      "leaderOnly": false
+    },
+    {
+      "hash": "0x45166aa0d405bac8ac4959e8af2380947d55f21cc4aacca361a6bcac4c664c8c",
+      "url": "https://explorer-studio.genlayer.com/transactions/0x45166aa0d405bac8ac4959e8af2380947d55f21cc4aacca361a6bcac4c664c8c",
+      "method": "challenge_review",
+      "role": "client",
+      "status": "FINALIZED",
+      "execution": "ERROR",
+      "passed": true,
+      "expectedError": "Challenge already used",
+      "error": "[EXPECTED] Challenge already used",
+      "votes": {
+        "0x3E5ee2507cc167C9925Bf10c67D7986581112024": "agree",
+        "0x772ffCd1dF6Cc566eC4b8d3f4F4f8eBbb6B36C84": "agree",
+        "0xacc2459F341D7a887bcA8FAA62F1EC9378d4Bc67": "agree",
+        "0xcE1d6bBB36B744536153966B4DD42276f5ADd0F8": "agree",
+        "0xec2Fb79cd12255Eb34886CEd7332f27B98DEe658": "agree"
+      },
+      "leaderOnly": false
+    },
+    {
+      "hash": "0xe2a9e16f9bce6d183ccfd23ee639dbef1049ba18e24ffab6a49f58dce1316eec",
+      "url": "https://explorer-studio.genlayer.com/transactions/0xe2a9e16f9bce6d183ccfd23ee639dbef1049ba18e24ffab6a49f58dce1316eec",
+      "method": "review_patch",
+      "role": "observer",
+      "status": "FINALIZED",
+      "execution": "ERROR",
+      "passed": true,
+      "expectedError": "Stale revision or review already started",
+      "error": "[EXPECTED] Stale revision or review already started",
+      "votes": {
+        "0x03D58A4DeF6fDFc032A56374785a5F571D07Bc11": "idle",
+        "0x3D83ab507785b95ca5C208bEc80CCe3D5ca98100": "agree",
+        "0x3E5ee2507cc167C9925Bf10c67D7986581112024": "idle",
+        "0xDB1c35c1f05d885999b8f13e5735307BcC16Be88": "agree",
+        "0xE6BD8050758CB15fC88387223E31Ae2708B119dC": "agree"
+      },
+      "leaderOnly": false
+    },
+    {
+      "hash": "0xe5a9e0feb0c3d292f701cf201b000eafec74225deba8734210d7507f89ee047a",
+      "url": "https://explorer-studio.genlayer.com/transactions/0xe5a9e0feb0c3d292f701cf201b000eafec74225deba8734210d7507f89ee047a",
+      "method": "finalize",
+      "role": "observer",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "passed": true,
+      "expectedError": null,
+      "error": null,
+      "votes": {
+        "0x36728d2a123aB444E603EE5b2ad17d18Bb193557": "agree",
+        "0x4EDbE1FC9EAeC7b0EBA849b0C76AE73Eb0ad5C47": "agree",
+        "0x5310dcF075E0BD47d29B8ec6581F736C767f54D2": "agree",
+        "0x772ffCd1dF6Cc566eC4b8d3f4F4f8eBbb6B36C84": "agree",
+        "0xec2Fb79cd12255Eb34886CEd7332f27B98DEe658": "agree"
+      },
+      "leaderOnly": false
+    },
+    {
+      "hash": "0xf811209d9a8ae0a0cee716e93217c066e03c2187e32cf62db28c00a8151b3885",
+      "url": "https://explorer-studio.genlayer.com/transactions/0xf811209d9a8ae0a0cee716e93217c066e03c2187e32cf62db28c00a8151b3885",
+      "method": "recover_expired",
+      "role": "observer",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "passed": true,
+      "expectedError": null,
+      "error": null,
+      "votes": {
+        "0x14402D49f317CE1a2F35BAE01b1804A2A9703dCb": "agree",
+        "0x4404Fb70d490c935758146f42A73DC850FF95C71": "idle",
+        "0x6737ca1d6BDF8b7C4f19143E2D55581Ca64eb7C3": "agree",
+        "0x76c25AFC12c75485703cCFfd0083AA6201455B25": "agree",
+        "0x772ffCd1dF6Cc566eC4b8d3f4F4f8eBbb6B36C84": "idle"
+      },
+      "leaderOnly": false
+    },
+    {
+      "hash": "0xe471c35d9c4beb2e8a66c5a68b5ef56a75d03acffecf3f7725606756a1503a93",
+      "url": "https://explorer-studio.genlayer.com/transactions/0xe471c35d9c4beb2e8a66c5a68b5ef56a75d03acffecf3f7725606756a1503a93",
+      "method": "withdraw",
+      "role": "author",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "passed": true,
+      "expectedError": null,
+      "error": null,
+      "votes": {
+        "0x03D58A4DeF6fDFc032A56374785a5F571D07Bc11": "agree",
+        "0x36728d2a123aB444E603EE5b2ad17d18Bb193557": "agree",
+        "0x4aba638Cf0Cf5249437AaD968fC69dde46ae6BAC": "agree",
+        "0xacc2459F341D7a887bcA8FAA62F1EC9378d4Bc67": "agree",
+        "0xec2Fb79cd12255Eb34886CEd7332f27B98DEe658": "agree"
+      },
+      "leaderOnly": false
+    },
+    {
+      "hash": "0x79ad225b999bc3361590164f66f55143c6651268ab77a77330073d5ccf103148",
+      "url": "https://explorer-studio.genlayer.com/transactions/0x79ad225b999bc3361590164f66f55143c6651268ab77a77330073d5ccf103148",
+      "method": "withdraw",
+      "role": "client",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "passed": true,
+      "expectedError": null,
+      "error": null,
+      "votes": {
+        "0x4EDbE1FC9EAeC7b0EBA849b0C76AE73Eb0ad5C47": "agree",
+        "0x4aba638Cf0Cf5249437AaD968fC69dde46ae6BAC": "agree",
+        "0x5310dcF075E0BD47d29B8ec6581F736C767f54D2": "agree",
+        "0x9ea87b28DcA2F79fe108CF06a4c13B4c876AC23d": "agree",
+        "0xDB1c35c1f05d885999b8f13e5735307BcC16Be88": "agree"
+      },
+      "leaderOnly": false
+    },
+    {
+      "hash": "0x1632f7769eba831a39bfb3844d302a0c1b7a19bf26020686c605001d1d24b830",
+      "url": "https://explorer-studio.genlayer.com/transactions/0x1632f7769eba831a39bfb3844d302a0c1b7a19bf26020686c605001d1d24b830",
+      "method": "withdraw",
+      "role": "author",
+      "status": "FINALIZED",
+      "execution": "ERROR",
+      "passed": true,
+      "expectedError": "No claimable credit",
+      "error": "[EXPECTED] No claimable credit",
+      "votes": {
+        "0x03D58A4DeF6fDFc032A56374785a5F571D07Bc11": "agree",
+        "0x14402D49f317CE1a2F35BAE01b1804A2A9703dCb": "agree",
+        "0x3D83ab507785b95ca5C208bEc80CCe3D5ca98100": "agree",
+        "0x76c25AFC12c75485703cCFfd0083AA6201455B25": "idle",
+        "0x90402341F0B0e97b23023c0a87de957FB7148E0F": "agree"
+      },
+      "leaderOnly": false
+    },
+    {
+      "hash": "0x8df086d52551bfc37fde29cc75d3c3409361e676416d53ce9677a6fff57571c1",
+      "url": "https://explorer-studio.genlayer.com/transactions/0x8df086d52551bfc37fde29cc75d3c3409361e676416d53ce9677a6fff57571c1",
+      "method": "finalize",
+      "role": "observer",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "passed": true,
+      "expectedError": null,
+      "error": null,
+      "votes": {
+        "0x4EDbE1FC9EAeC7b0EBA849b0C76AE73Eb0ad5C47": "agree",
+        "0x5310dcF075E0BD47d29B8ec6581F736C767f54D2": "agree",
+        "0x772ffCd1dF6Cc566eC4b8d3f4F4f8eBbb6B36C84": "agree",
+        "0xacc2459F341D7a887bcA8FAA62F1EC9378d4Bc67": "agree",
+        "0xcE1d6bBB36B744536153966B4DD42276f5ADd0F8": "agree"
+      },
+      "leaderOnly": false
+    },
+    {
+      "hash": "0x5264e03048e85fade3d1391f8f968663aa1304b9ced67423967a65bdfa56da16",
+      "url": "https://explorer-studio.genlayer.com/transactions/0x5264e03048e85fade3d1391f8f968663aa1304b9ced67423967a65bdfa56da16",
+      "method": "submit_patch",
+      "role": "author",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "passed": true,
+      "expectedError": null,
+      "error": null,
+      "votes": {
+        "0x03D58A4DeF6fDFc032A56374785a5F571D07Bc11": "agree",
+        "0x14402D49f317CE1a2F35BAE01b1804A2A9703dCb": "idle",
+        "0x36728d2a123aB444E603EE5b2ad17d18Bb193557": "idle",
+        "0x4EDbE1FC9EAeC7b0EBA849b0C76AE73Eb0ad5C47": "agree",
+        "0x76c25AFC12c75485703cCFfd0083AA6201455B25": "agree"
+      },
+      "leaderOnly": false
+    },
+    {
+      "hash": "0xdc15c9fd83153348d7ccd300a1ee0923ad756fbb01135c124fb52a79669bcdc5",
+      "url": "https://explorer-studio.genlayer.com/transactions/0xdc15c9fd83153348d7ccd300a1ee0923ad756fbb01135c124fb52a79669bcdc5",
+      "method": "review_patch",
+      "role": "observer",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "passed": true,
+      "expectedError": null,
+      "error": null,
+      "votes": {
+        "0x14402D49f317CE1a2F35BAE01b1804A2A9703dCb": "agree",
+        "0x3E5ee2507cc167C9925Bf10c67D7986581112024": "idle",
+        "0x6737ca1d6BDF8b7C4f19143E2D55581Ca64eb7C3": "agree",
+        "0x772ffCd1dF6Cc566eC4b8d3f4F4f8eBbb6B36C84": "agree",
+        "0x9ea87b28DcA2F79fe108CF06a4c13B4c876AC23d": "idle"
+      },
+      "leaderOnly": false
+    },
+    {
+      "hash": "0x264ec67067d3dde2a1fb72a3f8df7ec4b3701bfed5e7de62c3ebd863a6a898a5",
+      "url": "https://explorer-studio.genlayer.com/transactions/0x264ec67067d3dde2a1fb72a3f8df7ec4b3701bfed5e7de62c3ebd863a6a898a5",
+      "method": "finalize",
+      "role": "observer",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "passed": true,
+      "expectedError": null,
+      "error": null,
+      "votes": {
+        "0x03D58A4DeF6fDFc032A56374785a5F571D07Bc11": "agree",
+        "0x3E5ee2507cc167C9925Bf10c67D7986581112024": "agree",
+        "0x5310dcF075E0BD47d29B8ec6581F736C767f54D2": "idle",
+        "0xE6BD8050758CB15fC88387223E31Ae2708B119dC": "agree",
+        "0xacc2459F341D7a887bcA8FAA62F1EC9378d4Bc67": "idle"
+      },
+      "leaderOnly": false
+    },
+    {
+      "hash": "0x10379f8ac9b066cb32b2ae5a0354d2a22af22b3fd3ba6e350d800ad2351fa2fc",
+      "url": "https://explorer-studio.genlayer.com/transactions/0x10379f8ac9b066cb32b2ae5a0354d2a22af22b3fd3ba6e350d800ad2351fa2fc",
+      "method": "withdraw",
+      "role": "author",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "passed": true,
+      "expectedError": null,
+      "error": null,
+      "votes": {
+        "0x5310dcF075E0BD47d29B8ec6581F736C767f54D2": "agree",
+        "0x9ea87b28DcA2F79fe108CF06a4c13B4c876AC23d": "agree",
+        "0xDB1c35c1f05d885999b8f13e5735307BcC16Be88": "agree",
+        "0xE6BD8050758CB15fC88387223E31Ae2708B119dC": "idle",
+        "0xacc2459F341D7a887bcA8FAA62F1EC9378d4Bc67": "idle"
+      },
+      "leaderOnly": false
+    }
+  ],
+  "jobs": [
+    {
+      "accept_by": 1789227903,
+      "accepted_at": 1789224456,
+      "allowed_paths": [
+        "src/orders.py"
+      ],
+      "author": "0x555c934059f6899e266198c4bb04e0f923e2be20",
+      "base_sha": "f887c0fff08c700fe94f2d66b2558e1bedd2bfa6",
+      "bug": "record_order currently overwrites an existing order when the same key is submitted twice. Repeated keys must return the first stored record unchanged, even when the new payload differs. This is a synthetic StudioNet test, not production order processing.",
+      "challenge_until": 1789225312,
+      "client": "0xcbb5545de1ce77514e082354eeb02be66e1378bb",
+      "created_at": 1789224303,
+      "evidence_cutoff": 1789224642,
+      "expires_at": 1789325103,
+      "id": "PB-STUDIO-HAPPY-001",
+      "recipient": "0x555c934059f6899e266198c4bb04e0f923e2be20",
+      "repo": "Demigodd00/patchbond-studionet-fixtures",
+      "repository_id": 1367383764,
+      "required_job": "acceptance",
+      "requirements": [
+        "For an existing key, record_order must return the existing stored object without replacing or mutating it, even when the new payload differs.",
+        "For a previously unseen nonempty string key, record_order must store a shallow dict copy of the supplied payload and return that stored object.",
+        "A non-string or empty/whitespace-only key must raise ValueError before modifying the orders dictionary."
+      ],
+      "reviews": [
+        {
+          "assessments": [
+            {
+              "at": 1789224712,
+              "kind": "initial",
+              "result": {
+                "checks": [
+                  {
+                    "id": "R1",
+                    "quote": "if key in orders:\n        return orders[key]",
+                    "reason": "The code checks if the key exists in the orders dictionary and returns the existing value immediately, preventing the subsequent assignment (overwrite).",
+                    "status": "SUPPORTED"
+                  },
+                  {
+                    "id": "R2",
+                    "quote": "orders[key] = dict(payload)",
+                    "reason": "For new keys, the function creates a shallow copy of the payload using dict() and stores it.",
+                    "status": "SUPPORTED"
+                  },
+                  {
+                    "id": "R3",
+                    "quote": "if not isinstance(key, str) or not key.strip():\n        raise ValueError(\"key must be nonempty\")",
+                    "reason": "The function validates that the key is a string and not empty/whitespace, raising a ValueError if the condition is not met.",
+                    "status": "SUPPORTED"
+                  }
+                ],
+                "outcome": "ACCEPTED",
+                "scope_ok": true
+              }
+            }
+          ],
+          "attempt": 1,
+          "challenge": "",
+          "challenge_used": false,
+          "checks": [
+            {
+              "id": "R1",
+              "quote": "if key in orders:\n        return orders[key]",
+              "reason": "The code checks if the key exists in the orders dictionary and returns the existing value immediately, preventing the subsequent assignment (overwrite).",
+              "status": "SUPPORTED"
+            },
+            {
+              "id": "R2",
+              "quote": "orders[key] = dict(payload)",
+              "reason": "For new keys, the function creates a shallow copy of the payload using dict() and stores it.",
+              "status": "SUPPORTED"
+            },
+            {
+              "id": "R3",
+              "quote": "if not isinstance(key, str) or not key.strip():\n        raise ValueError(\"key must be nonempty\")",
+              "reason": "The function validates that the key is a string and not empty/whitespace, raising a ValueError if the condition is not met.",
+              "status": "SUPPORTED"
+            }
+          ],
+          "evidence": {
+            "base_sha": "f887c0fff08c700fe94f2d66b2558e1bedd2bfa6",
+            "ci": {
+              "attempt": 1,
+              "conclusion": "success",
+              "job_id": 103571015794,
+              "job_name": "acceptance",
+              "run_id": 34700399595,
+              "started_at": 1789224558,
+              "steps": [
+                {
+                  "conclusion": "success",
+                  "name": "Set up job",
+                  "number": 1
+                },
+                {
+                  "conclusion": "success",
+                  "name": "Fetch exact commit",
+                  "number": 2
+                },
+                {
+                  "conclusion": "success",
+                  "name": "Run frozen smoke tests",
+                  "number": 3
+                },
+                {
+                  "conclusion": "success",
+                  "name": "Complete job",
+                  "number": 4
+                }
+              ],
+              "workflow_id": 356564406
+            },
+            "files": [
+              {
+                "after": {
+                  "bytes": 319,
+                  "sha256": "76cecebe66b36ec8536070ece2e24e0e8b130e2b025e5dd0c6cca325d61e7dc7",
+                  "text": "\"\"\"Synthetic order recorder used only for PatchBond StudioNet tests.\"\"\"\n\n\ndef record_order(orders, key, payload):\n    if not isinstance(key, str) or not key.strip():\n        raise ValueError(\"key must be nonempty\")\n    if key in orders:\n        return orders[key]\n    orders[key] = dict(payload)\n    return orders[key]\n"
+                },
+                "before": {
+                  "bytes": 270,
+                  "sha256": "0e5c6ce80a6aa01981e6e83fc18612f7a03c1e092c7141f932e5f597831abce1",
+                  "text": "\"\"\"Synthetic order recorder used only for PatchBond StudioNet tests.\"\"\"\n\n\ndef record_order(orders, key, payload):\n    if not isinstance(key, str) or not key.strip():\n        raise ValueError(\"key must be nonempty\")\n    orders[key] = dict(payload)\n    return orders[key]\n"
+                },
+                "path": "src/orders.py"
+              }
+            ],
+            "head_sha": "989a61448760119a64900bfbb9b742fd58cd7f03",
+            "repo": "Demigodd00/patchbond-studionet-fixtures",
+            "repository_id": 1367383764,
+            "workflow": {
+              "bytes": 612,
+              "sha256": "739a7d9591f1a65ce4e906998de6736253e9a9ce4cf0bb76d37c0a2272bd64ca",
+              "text": "name: PatchBond fixture CI\non: push\npermissions:\n  contents: read\njobs:\n  acceptance:\n    runs-on: ubuntu-24.04\n    steps:\n      - name: Fetch exact commit\n        env:\n          PATCH_REPOSITORY: ${{ github.repository }}\n          PATCH_SHA: ${{ github.sha }}\n        run: |\n          git init .\n          git remote add origin \"https://github.com/${PATCH_REPOSITORY}.git\"\n          git fetch --depth=1 origin \"$PATCH_SHA\"\n          git checkout --detach FETCH_HEAD\n          test \"$(git rev-parse HEAD)\" = \"$PATCH_SHA\"\n      - name: Run frozen smoke tests\n        run: python3 -m unittest discover -s tests -v\n"
+            }
+          },
+          "evidence_bytes": 2224,
+          "evidence_cutoff": 1789224642,
+          "evidence_hash": "aaab31cec57807a3bbe861939ee9e0448a0bf95961fb57e3481196e874b7f58a",
+          "finalized_at": 1789225344,
+          "head_sha": "989a61448760119a64900bfbb9b742fd58cd7f03",
+          "outcome": "ACCEPTED",
+          "revision": 1,
+          "run_id": 34700399595,
+          "scope_ok": true,
+          "status": "reviewed",
+          "submitted_at": 1789224642
+        }
+      ],
+      "revision": 1,
+      "revision_due": 1789238703,
+      "reward": "10000000000000000",
+      "settled_at": 1789225344,
+      "status": "ACCEPTED",
+      "submit_by": 1789238703,
+      "title": "Idempotent order recording - accepted patch",
+      "workflow_bytes": 612,
+      "workflow_id": 356564406,
+      "workflow_path": ".github/workflows/acceptance.yml",
+      "workflow_sha256": "739a7d9591f1a65ce4e906998de6736253e9a9ce4cf0bb76d37c0a2272bd64ca"
+    },
+    {
+      "accept_by": 1789227992,
+      "accepted_at": 1789224493,
+      "allowed_paths": [
+        "src/orders.py"
+      ],
+      "author": "0x555c934059f6899e266198c4bb04e0f923e2be20",
+      "base_sha": "f887c0fff08c700fe94f2d66b2558e1bedd2bfa6",
+      "bug": "record_order currently overwrites an existing order when the same key is submitted twice. Repeated keys must return the first stored record unchanged, even when the new payload differs. This is a synthetic StudioNet test, not production order processing.",
+      "challenge_until": 1789226381,
+      "client": "0xcbb5545de1ce77514e082354eeb02be66e1378bb",
+      "created_at": 1789224392,
+      "evidence_cutoff": 1789225669,
+      "expires_at": 1789325192,
+      "id": "PB-STUDIO-CORRECT-001",
+      "recipient": "0x555c934059f6899e266198c4bb04e0f923e2be20",
+      "repo": "Demigodd00/patchbond-studionet-fixtures",
+      "repository_id": 1367383764,
+      "required_job": "acceptance",
+      "requirements": [
+        "For an existing key, record_order must return the existing stored object without replacing or mutating it, even when the new payload differs.",
+        "For a previously unseen nonempty string key, record_order must store a shallow dict copy of the supplied payload and return that stored object.",
+        "A non-string or empty/whitespace-only key must raise ValueError before modifying the orders dictionary."
+      ],
+      "reviews": [
+        {
+          "assessments": [
+            {
+              "at": 1789224820,
+              "kind": "initial",
+              "result": {
+                "checks": [
+                  {
+                    "id": "R1",
+                    "quote": "copied_payload = dict(payload)\n    orders[key] = copied_payload\n    return orders[key]",
+                    "reason": "The AFTER code still unconditionally overwrites orders[key] with a new copy of payload regardless of whether the key already exists. The comment in the AFTER source even acknowledges this: 'This proposed change only names the copy; duplicates still overwrite.' There is no guard such as `if key not in orders` to preserve the first stored record.",
+                    "status": "CONTRADICTED"
+                  },
+                  {
+                    "id": "R2",
+                    "quote": "copied_payload = dict(payload)\n    orders[key] = copied_payload\n    return orders[key]",
+                    "reason": "For a previously unseen key, the AFTER code creates a shallow dict copy via `dict(payload)` and stores it under the key, then returns it. This satisfies R2 for the new-key case.",
+                    "status": "SUPPORTED"
+                  },
+                  {
+                    "id": "R3",
+                    "quote": "if not isinstance(key, str) or not key.strip():\n        raise ValueError(\"key must be nonempty\")",
+                    "reason": "The AFTER code retains the validation guard that raises ValueError for non-string or empty/whitespace-only keys before any modification to the orders dictionary.",
+                    "status": "SUPPORTED"
+                  }
+                ],
+                "outcome": "CHANGES_REQUESTED",
+                "scope_ok": true
+              }
+            },
+            {
+              "at": 1789224964,
+              "kind": "challenge",
+              "result": {
+                "checks": [
+                  {
+                    "id": "R1",
+                    "quote": "orders[key] = copied_payload",
+                    "reason": "The code fails to guard against existing keys. It unconditionally assigns the new payload to the dictionary, which overwrites any existing record associated with that key.",
+                    "status": "CONTRADICTED"
+                  },
+                  {
+                    "id": "R2",
+                    "quote": "copied_payload = dict(payload)\n    orders[key] = copied_payload",
+                    "reason": "The code correctly creates a shallow copy of the payload using dict() and stores it in the orders dictionary for new keys.",
+                    "status": "SUPPORTED"
+                  },
+                  {
+                    "id": "R3",
+                    "quote": "if not isinstance(key, str) or not key.strip():\n        raise ValueError(\"key must be nonempty\")",
+                    "reason": "The code performs a type and content check on the key and raises a ValueError if the conditions are not met before the assignment occurs.",
+                    "status": "SUPPORTED"
+                  }
+                ],
+                "outcome": "CHANGES_REQUESTED",
+                "scope_ok": true
+              }
+            }
+          ],
+          "attempt": 1,
+          "challenge": "Recheck the existing AFTER code against R1. Does it guard an existing key before assignment? A successful CI run alone is not proof. Use only the captured source.",
+          "challenge_used": true,
+          "checks": [
+            {
+              "id": "R1",
+              "quote": "orders[key] = copied_payload",
+              "reason": "The code fails to guard against existing keys. It unconditionally assigns the new payload to the dictionary, which overwrites any existing record associated with that key.",
+              "status": "CONTRADICTED"
+            },
+            {
+              "id": "R2",
+              "quote": "copied_payload = dict(payload)\n    orders[key] = copied_payload",
+              "reason": "The code correctly creates a shallow copy of the payload using dict() and stores it in the orders dictionary for new keys.",
+              "status": "SUPPORTED"
+            },
+            {
+              "id": "R3",
+              "quote": "if not isinstance(key, str) or not key.strip():\n        raise ValueError(\"key must be nonempty\")",
+              "reason": "The code performs a type and content check on the key and raises a ValueError if the conditions are not met before the assignment occurs.",
+              "status": "SUPPORTED"
+            }
+          ],
+          "evidence": {
+            "base_sha": "f887c0fff08c700fe94f2d66b2558e1bedd2bfa6",
+            "ci": {
+              "attempt": 1,
+              "conclusion": "success",
+              "job_id": 103571018895,
+              "job_name": "acceptance",
+              "run_id": 34700400691,
+              "started_at": 1789224559,
+              "steps": [
+                {
+                  "conclusion": "success",
+                  "name": "Set up job",
+                  "number": 1
+                },
+                {
+                  "conclusion": "success",
+                  "name": "Fetch exact commit",
+                  "number": 2
+                },
+                {
+                  "conclusion": "success",
+                  "name": "Run frozen smoke tests",
+                  "number": 3
+                },
+                {
+                  "conclusion": "success",
+                  "name": "Complete job",
+                  "number": 4
+                }
+              ],
+              "workflow_id": 356564406
+            },
+            "files": [
+              {
+                "after": {
+                  "bytes": 382,
+                  "sha256": "b9ffee724c06669d49669288ad43019b5ffe33f6536fa085f3ff480c8c6411cd",
+                  "text": "\"\"\"Synthetic order recorder used only for PatchBond StudioNet tests.\"\"\"\n\n\ndef record_order(orders, key, payload):\n    if not isinstance(key, str) or not key.strip():\n        raise ValueError(\"key must be nonempty\")\n    # This proposed change only names the copy; duplicates still overwrite.\n    copied_payload = dict(payload)\n    orders[key] = copied_payload\n    return orders[key]\n"
+                },
+                "before": {
+                  "bytes": 270,
+                  "sha256": "0e5c6ce80a6aa01981e6e83fc18612f7a03c1e092c7141f932e5f597831abce1",
+                  "text": "\"\"\"Synthetic order recorder used only for PatchBond StudioNet tests.\"\"\"\n\n\ndef record_order(orders, key, payload):\n    if not isinstance(key, str) or not key.strip():\n        raise ValueError(\"key must be nonempty\")\n    orders[key] = dict(payload)\n    return orders[key]\n"
+                },
+                "path": "src/orders.py"
+              }
+            ],
+            "head_sha": "858e6ad22b3694a9b785c939e6040ae6fa14a6df",
+            "repo": "Demigodd00/patchbond-studionet-fixtures",
+            "repository_id": 1367383764,
+            "workflow": {
+              "bytes": 612,
+              "sha256": "739a7d9591f1a65ce4e906998de6736253e9a9ce4cf0bb76d37c0a2272bd64ca",
+              "text": "name: PatchBond fixture CI\non: push\npermissions:\n  contents: read\njobs:\n  acceptance:\n    runs-on: ubuntu-24.04\n    steps:\n      - name: Fetch exact commit\n        env:\n          PATCH_REPOSITORY: ${{ github.repository }}\n          PATCH_SHA: ${{ github.sha }}\n        run: |\n          git init .\n          git remote add origin \"https://github.com/${PATCH_REPOSITORY}.git\"\n          git fetch --depth=1 origin \"$PATCH_SHA\"\n          git checkout --detach FETCH_HEAD\n          test \"$(git rev-parse HEAD)\" = \"$PATCH_SHA\"\n      - name: Run frozen smoke tests\n        run: python3 -m unittest discover -s tests -v\n"
+            }
+          },
+          "evidence_bytes": 2287,
+          "evidence_cutoff": 1789224648,
+          "evidence_hash": "082288b89961f328000268ee883bb56a24942e1ce68dc256b3799ab54d4de7b7",
+          "finalized_at": 1789225587,
+          "head_sha": "858e6ad22b3694a9b785c939e6040ae6fa14a6df",
+          "outcome": "CHANGES_REQUESTED",
+          "revision": 1,
+          "run_id": 34700400691,
+          "scope_ok": true,
+          "status": "reviewed",
+          "submitted_at": 1789224648
+        },
+        {
+          "assessments": [
+            {
+              "at": 1789225781,
+              "kind": "initial",
+              "result": {
+                "checks": [
+                  {
+                    "id": "R1",
+                    "quote": "if key not in orders:\n        orders[key] = dict(payload)\n    return orders[key]",
+                    "reason": "The function now only writes when the key is absent and otherwise returns the preexisting entry, so an existing key is neither replaced nor mutated by this function.",
+                    "status": "SUPPORTED"
+                  },
+                  {
+                    "id": "R2",
+                    "quote": "if key not in orders:\n        orders[key] = dict(payload)\n    return orders[key]",
+                    "reason": "For unseen keys, the code stores dict(payload), which is a shallow dict copy, and then returns the stored object from orders[key].",
+                    "status": "SUPPORTED"
+                  },
+                  {
+                    "id": "R3",
+                    "quote": "if not isinstance(key, str) or not key.strip():\n        raise ValueError(\"key must be nonempty\")",
+                    "reason": "The key validation raises ValueError before any write to orders occurs, covering non-string and empty/whitespace-only keys.",
+                    "status": "SUPPORTED"
+                  }
+                ],
+                "outcome": "ACCEPTED",
+                "scope_ok": true
+              }
+            }
+          ],
+          "attempt": 1,
+          "challenge": "",
+          "challenge_used": false,
+          "checks": [
+            {
+              "id": "R1",
+              "quote": "if key not in orders:\n        orders[key] = dict(payload)\n    return orders[key]",
+              "reason": "The function now only writes when the key is absent and otherwise returns the preexisting entry, so an existing key is neither replaced nor mutated by this function.",
+              "status": "SUPPORTED"
+            },
+            {
+              "id": "R2",
+              "quote": "if key not in orders:\n        orders[key] = dict(payload)\n    return orders[key]",
+              "reason": "For unseen keys, the code stores dict(payload), which is a shallow dict copy, and then returns the stored object from orders[key].",
+              "status": "SUPPORTED"
+            },
+            {
+              "id": "R3",
+              "quote": "if not isinstance(key, str) or not key.strip():\n        raise ValueError(\"key must be nonempty\")",
+              "reason": "The key validation raises ValueError before any write to orders occurs, covering non-string and empty/whitespace-only keys.",
+              "status": "SUPPORTED"
+            }
+          ],
+          "evidence": {
+            "base_sha": "f887c0fff08c700fe94f2d66b2558e1bedd2bfa6",
+            "ci": {
+              "attempt": 1,
+              "conclusion": "success",
+              "job_id": 103571472661,
+              "job_name": "acceptance",
+              "run_id": 34700569510,
+              "started_at": 1789224774,
+              "steps": [
+                {
+                  "conclusion": "success",
+                  "name": "Set up job",
+                  "number": 1
+                },
+                {
+                  "conclusion": "success",
+                  "name": "Fetch exact commit",
+                  "number": 2
+                },
+                {
+                  "conclusion": "success",
+                  "name": "Run frozen smoke tests",
+                  "number": 3
+                },
+                {
+                  "conclusion": "success",
+                  "name": "Complete job",
+                  "number": 4
+                }
+              ],
+              "workflow_id": 356564406
+            },
+            "files": [
+              {
+                "after": {
+                  "bytes": 300,
+                  "sha256": "11ddf33ffe65f6709f26664854a31690453a889d7d926f5afc8f65fc0b770291",
+                  "text": "\"\"\"Synthetic order recorder used only for PatchBond StudioNet tests.\"\"\"\n\n\ndef record_order(orders, key, payload):\n    if not isinstance(key, str) or not key.strip():\n        raise ValueError(\"key must be nonempty\")\n    if key not in orders:\n        orders[key] = dict(payload)\n    return orders[key]\n"
+                },
+                "before": {
+                  "bytes": 270,
+                  "sha256": "0e5c6ce80a6aa01981e6e83fc18612f7a03c1e092c7141f932e5f597831abce1",
+                  "text": "\"\"\"Synthetic order recorder used only for PatchBond StudioNet tests.\"\"\"\n\n\ndef record_order(orders, key, payload):\n    if not isinstance(key, str) or not key.strip():\n        raise ValueError(\"key must be nonempty\")\n    orders[key] = dict(payload)\n    return orders[key]\n"
+                },
+                "path": "src/orders.py"
+              }
+            ],
+            "head_sha": "451956928e4bbb05b3bbfac1d186be94512faf7a",
+            "repo": "Demigodd00/patchbond-studionet-fixtures",
+            "repository_id": 1367383764,
+            "workflow": {
+              "bytes": 612,
+              "sha256": "739a7d9591f1a65ce4e906998de6736253e9a9ce4cf0bb76d37c0a2272bd64ca",
+              "text": "name: PatchBond fixture CI\non: push\npermissions:\n  contents: read\njobs:\n  acceptance:\n    runs-on: ubuntu-24.04\n    steps:\n      - name: Fetch exact commit\n        env:\n          PATCH_REPOSITORY: ${{ github.repository }}\n          PATCH_SHA: ${{ github.sha }}\n        run: |\n          git init .\n          git remote add origin \"https://github.com/${PATCH_REPOSITORY}.git\"\n          git fetch --depth=1 origin \"$PATCH_SHA\"\n          git checkout --detach FETCH_HEAD\n          test \"$(git rev-parse HEAD)\" = \"$PATCH_SHA\"\n      - name: Run frozen smoke tests\n        run: python3 -m unittest discover -s tests -v\n"
+            }
+          },
+          "evidence_bytes": 2204,
+          "evidence_cutoff": 1789225669,
+          "evidence_hash": "6a2acefb9283e61c446a0a4c3707ebaa26425dd0a6be991e49a846e7b7cf7ef5",
+          "finalized_at": 1789226408,
+          "head_sha": "451956928e4bbb05b3bbfac1d186be94512faf7a",
+          "outcome": "ACCEPTED",
+          "revision": 2,
+          "run_id": 34700569510,
+          "scope_ok": true,
+          "status": "reviewed",
+          "submitted_at": 1789225669
+        }
+      ],
+      "revision": 2,
+      "revision_due": 1789229187,
+      "reward": "10000000000000000",
+      "settled_at": 1789226408,
+      "status": "ACCEPTED",
+      "submit_by": 1789238792,
+      "title": "Correcting a CI-green but incomplete patch",
+      "workflow_bytes": 612,
+      "workflow_id": 356564406,
+      "workflow_path": ".github/workflows/acceptance.yml",
+      "workflow_sha256": "739a7d9591f1a65ce4e906998de6736253e9a9ce4cf0bb76d37c0a2272bd64ca"
+    },
+    {
+      "accept_by": 1789225327,
+      "accepted_at": 0,
+      "allowed_paths": [
+        "src/orders.py"
+      ],
+      "author": "0x555c934059f6899e266198c4bb04e0f923e2be20",
+      "base_sha": "f887c0fff08c700fe94f2d66b2558e1bedd2bfa6",
+      "bug": "record_order currently overwrites an existing order when the same key is submitted twice. Repeated keys must return the first stored record unchanged, even when the new payload differs. This is a synthetic StudioNet test, not production order processing.",
+      "challenge_until": 0,
+      "client": "0xcbb5545de1ce77514e082354eeb02be66e1378bb",
+      "created_at": 1789224427,
+      "expires_at": 1789325227,
+      "id": "PB-STUDIO-EXPIRY-001",
+      "recipient": "0xcbb5545de1ce77514e082354eeb02be66e1378bb",
+      "repo": "Demigodd00/patchbond-studionet-fixtures",
+      "repository_id": 1367383764,
+      "required_job": "acceptance",
+      "requirements": [
+        "For an existing key, record_order must return the existing stored object without replacing or mutating it, even when the new payload differs.",
+        "For a previously unseen nonempty string key, record_order must store a shallow dict copy of the supplied payload and return that stored object.",
+        "A non-string or empty/whitespace-only key must raise ValueError before modifying the orders dictionary."
+      ],
+      "reviews": [],
+      "revision": 0,
+      "revision_due": 1789238827,
+      "reward": "10000000000000000",
+      "settled_at": 1789225350,
+      "status": "REFUNDED",
+      "submit_by": 1789238827,
+      "title": "Expired assignment returns simulated reward",
+      "workflow_bytes": 612,
+      "workflow_id": 356564406,
+      "workflow_path": ".github/workflows/acceptance.yml",
+      "workflow_sha256": "739a7d9591f1a65ce4e906998de6736253e9a9ce4cf0bb76d37c0a2272bd64ca"
+    }
+  ],
+  "balanceChecks": {
+    "initial": {
+      "at": "2026-09-12T14:56:15.622Z",
+      "balances": {
+        "client": "70000000000000000",
+        "author": "0",
+        "observer": "0",
+        "contract": "30000000000000000"
+      },
+      "accounting": {
+        "claimable": "0",
+        "credited": "0",
+        "deposited": "30000000000000000",
+        "locked": "30000000000000000",
+        "withdrawn": "0"
+      }
+    },
+    "afterFirstWithdrawals": {
+      "at": "2026-09-12T15:04:56.445Z",
+      "balances": {
+        "client": "80000000000000000",
+        "author": "10000000000000000",
+        "observer": "0",
+        "contract": "10000000000000000"
+      },
+      "accounting": {
+        "claimable": "0",
+        "credited": "0",
+        "deposited": "30000000000000000",
+        "locked": "10000000000000000",
+        "withdrawn": "20000000000000000"
+      }
+    },
+    "final": {
+      "at": "2026-09-12T15:38:00.153Z",
+      "balances": {
+        "client": "80000000000000000",
+        "author": "20000000000000000",
+        "observer": "0",
+        "contract": "0"
+      },
+      "accounting": {
+        "claimable": "0",
+        "credited": "0",
+        "deposited": "30000000000000000",
+        "locked": "0",
+        "withdrawn": "30000000000000000"
+      }
+    }
+  },
+  "relatedReports": {
+    "chromeMetaMaskFollowUp": "/wallet-verification.json"
+  },
+  "limitations": [
+    "This original three-flow run used dedicated SDK software accounts. The later Chrome/MetaMask approval and rejection checks are in /wallet-verification.json; their OPEN 0.001 simulated GEN commitment is not included in this historical balance snapshot.",
+    "StudioNet storage and balances may be reset by its operator.",
+    "GitHub source availability, runner dependencies and validator liveness remain external dependencies.",
+    "Smart-contract recipients and real-money production settlement are outside scope."
+  ],
+  "transfers": [
+    {
+      "hash": "0x762abfeea687feb8eb727b302fb8f6e20eeee3ca83ee6087477baf476f9d1de3",
+      "url": "https://explorer-studio.genlayer.com/transactions/0x762abfeea687feb8eb727b302fb8f6e20eeee3ca83ee6087477baf476f9d1de3",
+      "parent": "0xe471c35d9c4beb2e8a66c5a68b5ef56a75d03acffecf3f7725606756a1503a93",
+      "status": "FINALIZED",
+      "from": "0x57512255289dcC4403Cc05c9e49a5BD6417528D7",
+      "to": "0x555c934059F6899e266198C4Bb04E0f923E2Be20",
+      "value": "10000000000000000",
+      "credited": true
+    },
+    {
+      "hash": "0x2adaeed692f59745d09e183988eb3560d49fd8295044c7eeeaa6d71c5313bc5f",
+      "url": "https://explorer-studio.genlayer.com/transactions/0x2adaeed692f59745d09e183988eb3560d49fd8295044c7eeeaa6d71c5313bc5f",
+      "parent": "0x79ad225b999bc3361590164f66f55143c6651268ab77a77330073d5ccf103148",
+      "status": "FINALIZED",
+      "from": "0x57512255289dcC4403Cc05c9e49a5BD6417528D7",
+      "to": "0xCBb5545de1cE77514E082354EEB02Be66E1378bB",
+      "value": "10000000000000000",
+      "credited": true
+    },
+    {
+      "hash": "0xece95abd9a93e856531bac392c8bfa4faa4a35c3cc911e4991f2a5338aebf9fb",
+      "url": "https://explorer-studio.genlayer.com/transactions/0xece95abd9a93e856531bac392c8bfa4faa4a35c3cc911e4991f2a5338aebf9fb",
+      "parent": "0x10379f8ac9b066cb32b2ae5a0354d2a22af22b3fd3ba6e350d800ad2351fa2fc",
+      "status": "FINALIZED",
+      "from": "0x57512255289dcC4403Cc05c9e49a5BD6417528D7",
+      "to": "0x555c934059F6899e266198C4Bb04E0f923E2Be20",
+      "value": "10000000000000000",
+      "credited": true
+    }
+  ]
+}

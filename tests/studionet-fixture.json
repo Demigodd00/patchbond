@@ -1,0 +1,16 @@
+{
+  "repo": "Demigodd00/patchbond-studionet-fixtures",
+  "base_sha": "f887c0fff08c700fe94f2d66b2558e1bedd2bfa6",
+  "bug": "record_order currently overwrites an existing order when the same key is submitted twice. Repeated keys must return the first stored record unchanged, even when the new payload differs. This is a synthetic StudioNet test, not production order processing.",
+  "requirements": [
+    "For an existing key, record_order must return the existing stored object without replacing or mutating it, even when the new payload differs.",
+    "For a previously unseen nonempty string key, record_order must store a shallow dict copy of the supplied payload and return that stored object.",
+    "A non-string or empty/whitespace-only key must raise ValueError before modifying the orders dictionary."
+  ],
+  "allowed_paths": ["src/orders.py"],
+  "workflow_path": ".github/workflows/acceptance.yml",
+  "workflow_sha256": "739a7d9591f1a65ce4e906998de6736253e9a9ce4cf0bb76d37c0a2272bd64ca",
+  "workflow_bytes": 612,
+  "workflow_id": 356564406,
+  "required_job": "acceptance"
+}
