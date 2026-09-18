@@ -1,5 +1,6 @@
 import {useState,type FormEvent} from 'react';
 import {parseGEN,type Job} from './model';
+import {formatError} from './errors';
 
 export function NewCommitment({demo,client,busy,onSubmit}:{demo:boolean;client:string;busy:boolean;onSubmit:(terms:Record<string,unknown>,reward:string)=>Promise<void>}){
  const [error,setError]=useState('');
@@ -12,7 +13,7 @@ export function NewCommitment({demo,client,busy,onSubmit}:{demo:boolean;client:s
    const author=demo?'0x'+'2'.repeat(40):s('author').toLowerCase();if(author===client.toLowerCase()||/^0x0{40}$/.test(author))throw Error('The assigned author must be a different, nonzero wallet.');
    const n=Math.floor(Date.now()/1000);
    await onSubmit({id:s('id'),title:s('title'),repo:s('repo'),bug:s('bug'),base_sha:s('base'),author,requirements,allowed_paths:paths,workflow_path:s('workflow'),workflow_sha256:s('digest'),workflow_bytes:Number(s('bytes')),workflow_id:Number(s('workflow_id')),required_job:s('job'),accept_by:n+3600,submit_by:n+Number(s('hours'))*3600},reward);
-  }catch(e){setError(e instanceof Error?e.message:String(e));}
+  }catch(e){setError(formatError(e));}
  }
  return <form onSubmit={submit} className="form-stack">
   <p>The client funds a fixed reward. Terms are public and immutable. The author has one hour to accept.</p>
@@ -39,7 +40,7 @@ export function NewCommitment({demo,client,busy,onSubmit}:{demo:boolean;client:s
 
 export function PatchForm({job,demo,busy,onSubmit}:{job:Job;demo:boolean;busy:boolean;onSubmit:(p:Record<string,string>)=>Promise<void>}){
  const [head,setHead]=useState(''),[run,setRun]=useState(''),[error,setError]=useState('');
- async function submit(e:FormEvent<HTMLFormElement>){e.preventDefault();setError('');const f=new FormData(e.currentTarget);try{await onSubmit({head,run,attempt:String(f.get('attempt'))});}catch(e){setError(e instanceof Error?e.message:String(e));}}
+ async function submit(e:FormEvent<HTMLFormElement>){e.preventDefault();setError('');const f=new FormData(e.currentTarget);try{await onSubmit({head,run,attempt:String(f.get('attempt'))});}catch(e){setError(formatError(e));}}
  return <form className="form-stack" onSubmit={submit}><p>Submit one direct-child commit of the frozen base. The workflow must be unchanged and the registered CI job must pass on this exact commit.</p>
   {demo&&<button type="button" className="secondary" onClick={()=>{setHead((job.revision?'c':'b').repeat(40));setRun(String(1000+job.revision));}}>Use simulated patch identifiers</button>}
   <label>Full patch commit<input required pattern="[0-9a-f]{40}" value={head} onChange={e=>setHead(e.target.value.trim())}/></label>
@@ -51,7 +52,7 @@ export function PatchForm({job,demo,busy,onSubmit}:{job:Job;demo:boolean;busy:bo
 
 export function ReviewForm({demo,challenge,busy,onSubmit}:{demo:boolean;challenge:boolean;busy:boolean;onSubmit:(p:Record<string,string>)=>Promise<void>}){
  const [error,setError]=useState('');
- async function submit(e:FormEvent<HTMLFormElement>){e.preventDefault();setError('');const f=new FormData(e.currentTarget);try{await onSubmit({outcome:String(f.get('outcome')||''),statement:String(f.get('statement')||'')});}catch(e){setError(e instanceof Error?e.message:String(e));}}
+ async function submit(e:FormEvent<HTMLFormElement>){e.preventDefault();setError('');const f=new FormData(e.currentTarget);try{await onSubmit({outcome:String(f.get('outcome')||''),statement:String(f.get('statement')||'')});}catch(e){setError(formatError(e));}}
  return <form className="form-stack" onSubmit={submit}><p>{demo?'Select an outcome to explore the rules. This does not call validators or verify code.':'GenLayer validators retrieve the registered evidence independently. Only their agreed result can advance the contract.'}</p>
   {challenge&&<label>Reason for reconsideration<textarea name="statement" required maxLength={1500} rows={5} placeholder="Explain how the existing code or CI evidence was misread. New claims are not evidence."/></label>}
   {demo&&<label>Simulated outcome<select name="outcome"><option value="ACCEPTED">Accepted</option><option value="CHANGES_REQUESTED">Changes requested</option><option value="INCONCLUSIVE">Insufficient evidence</option></select></label>}

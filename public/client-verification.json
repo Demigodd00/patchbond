@@ -1,5 +1,5 @@
 {
-  "at": "2026-09-12T15:37:52.780Z",
+  "at": "2026-09-18T18:29:34.266Z",
   "scope": "Actual client read/recovery functions; live RPC; in-memory storage; no browser wallet signature",
   "deploymentIdentityVerified": true,
   "checks": [

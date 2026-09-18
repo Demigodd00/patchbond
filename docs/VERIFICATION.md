@@ -2,7 +2,7 @@
 
 ## Scope
 
-This release is a GenLayer **stable StudioNet** project (61999), not a production financial application. Hosted GenVM execution, public GitHub retrieval, CI runs and validator reviews are genuine StudioNet interactions. Native GEN and balances are simulated. Bradbury and real-money checks are neither required nor claimed.
+This release is a GenLayer **stable StudioNet** project (61999), not a production financial application. Hosted GenVM execution, public GitHub retrieval, CI runs and validator reviews are genuine StudioNet interactions. Native GEN and balances are simulated. Bradbury and real-money checks were outside this release's test scope and are not claimed.
 
 ## Automated local checks
 
@@ -51,4 +51,8 @@ Initial browser checks on the public release covered the live board's three reco
 
 These checks close the previously untested MetaMask approval/rejection items. They do not claim a second full browser-driven settlement cycle, comprehensive extension compatibility, or a live wallet-switch/network-switch test.
 
-No Portal submission has been made. Public CI fixtures are [here](https://github.com/Demigodd00/patchbond-studionet-fixtures). This is not a security audit or a guarantee of zero bugs. Hosted data resets, source outages, CI dependencies and validator liveness remain external limitations. Smart-contract withdrawal recipients, failed outbound-message recovery and production-value settlement are outside this release.
+The user subsequently submitted PatchBond on 2026-09-14. No Portal submission was performed by the agent. Public CI fixtures are [here](https://github.com/Demigodd00/patchbond-studionet-fixtures). This is not a security audit or a guarantee of zero bugs. Hosted data resets, source outages, CI dependencies and validator liveness remain external limitations. Smart-contract withdrawal recipients, failed outbound-message recovery and production-value settlement are outside this release.
+
+## Wallet-error regression fix — 2026-09-18
+
+The steward feedback attached to PatchBond names MemorySeal and Bradbury policies. The [response and reproduction guide](STEWARDSHIP_RESPONSE_2026-09-18.md) separates that unresolved mismatch from the actual PatchBond fixes: readable nested provider errors, stage-specific diagnostics, single-send enforcement, valid-hash checking, and retention of received hashes before later SDK processing. The existing 37 frontend tests are supplemented by 34 regression cases (71 total). No new wallet signature, contract deployment, or Bradbury settlement is claimed for this frontend fix.
