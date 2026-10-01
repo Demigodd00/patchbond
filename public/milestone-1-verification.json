@@ -1,0 +1,24 @@
+{
+  "checkedAt": "2026-10-01T01:07:12.990Z",
+  "network": "StudioNet",
+  "contract": "0x57512255289dcC4403Cc05c9e49a5BD6417528D7",
+  "checks": "Finalized contract state, public GitHub source and CI; no wallet request or new transaction",
+  "results": [
+    {
+      "id": "PB-STUDIO-HAPPY-001",
+      "status": "ACCEPTED",
+      "revisions": 1,
+      "verdict": "verified",
+      "checks": 16,
+      "failures": []
+    },
+    {
+      "id": "PB-STUDIO-CORRECT-001",
+      "status": "ACCEPTED",
+      "revisions": 2,
+      "verdict": "verified",
+      "checks": 29,
+      "failures": []
+    }
+  ]
+}

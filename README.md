@@ -2,9 +2,11 @@
 
 Accountable, commit-bound software repair on GenLayer. A client freezes a reproducible bug, source scope, requirements, an assigned author and a fixed test-GEN reward. Validators independently retrieve GitHub evidence and compare the patch against each mandatory requirement. Deterministic contract rules control credits and deadlines; the model never selects a payout amount or recipient.
 
-[Public app](https://patchbond.blazekingsley2.chatgpt.site) · [App and contract source](https://github.com/Demigodd00/patchbond) · [Accepted correction demo](https://patchbond.blazekingsley2.chatgpt.site/?mode=live&job=PB-STUDIO-CORRECT-001) · [Submission fields](docs/SUBMISSION.md) · [512px PNG logo](public/patchbond-logo.png)
+[Public app](https://patchbond.blazekingsley2.chatgpt.site) · [App and contract source](https://github.com/Demigodd00/patchbond) · [Accepted correction demo](https://patchbond.blazekingsley2.chatgpt.site/?mode=live&job=PB-STUDIO-CORRECT-001) · [Milestone 1 evidence verifier](docs/MILESTONE_1_EVIDENCE_VERIFIER.md) · [Submission fields](docs/SUBMISSION.md) · [512px PNG logo](public/patchbond-logo.png)
 
 This repository contains the frontend, intelligent contract, tests, and public verification records. The [separate CI fixture repository](https://github.com/Demigodd00/patchbond-studionet-fixtures) contains the small example software patches reviewed by PatchBond, not the app itself. The public source export omits deployment-account hosting configuration and all ignored local account/operator data; local development does not need that hosting configuration.
+
+The first milestone adds a public read-only verifier for live commitments. It recomputes onchain evidence digests and checks pinned GitHub source, workflow and CI identities. See [the reviewer path and reproduction steps](docs/MILESTONE_1_EVIDENCE_VERIFIER.md). The deployed intelligent contract remains v0.1.
 
 ## Release status
 
