@@ -1,7 +1,7 @@
 // Read-only anonymous publication check: no cookies, credentials or auth bypass.
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
-const origin = 'https://patchbond.blazekingsley2.chatgpt.site';
+const origin = 'https://patchbond.esuspsychic.chatgpt.site';
 const expected = JSON.parse(fs.readFileSync(new URL('../public/deployment.json', import.meta.url), 'utf8'));
 
 async function get(path, contentType) {

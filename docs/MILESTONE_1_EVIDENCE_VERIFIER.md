@@ -10,9 +10,9 @@ This is a read-only capability for the accepted v0.1 contract. The contract addr
 
 ## Reviewer path
 
-1. Open [the accepted correction example](https://patchbond.blazekingsley2.chatgpt.site/?mode=live&job=PB-STUDIO-CORRECT-001&verify=1). The check should report **Evidence integrity verified** across both revisions. Expand the individual checks to inspect the direct-child commits, source snapshots, CI runs and challenge decision trail.
-2. Open [the single-revision acceptance](https://patchbond.blazekingsley2.chatgpt.site/?mode=live&job=PB-STUDIO-HAPPY-001&verify=1). The same read-only check should verify the accepted revision.
-3. Review [the original live settlement record](https://patchbond.blazekingsley2.chatgpt.site/verification.json) for finalized transactions and withdrawals. The verifier itself submits no transaction.
+1. Open [the accepted correction example](https://patchbond.esuspsychic.chatgpt.site/?mode=live&job=PB-STUDIO-CORRECT-001&verify=1). The check should report **Evidence integrity verified** across both revisions. Expand the individual checks to inspect the direct-child commits, source snapshots, CI runs and challenge decision trail.
+2. Open [the single-revision acceptance](https://patchbond.esuspsychic.chatgpt.site/?mode=live&job=PB-STUDIO-HAPPY-001&verify=1). The same read-only check should verify the accepted revision.
+3. Review [the original live settlement record](https://patchbond.esuspsychic.chatgpt.site/verification.json) for finalized transactions and withdrawals. The verifier itself submits no transaction.
 
 ## Reproduction
 
